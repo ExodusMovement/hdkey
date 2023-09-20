@@ -35,7 +35,6 @@
   },
   "dependencies": {
     "@bitcoinerlab/secp256k1": "^1.0.5",
-    "@noble/secp256k1": "^1.7.1",
     "bs58check": "^2.1.2",
     "ripemd160": "^2.0.2",
     "safe-buffer": "^5.1.1"
