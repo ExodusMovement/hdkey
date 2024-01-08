@@ -5,7 +5,7 @@
   "main": "lib/hdkey.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cryptocoinjs/hdkey"
+    "url": "git://github.com/ExodusMovement/hdkey"
   },
   "license": "MIT",
   "keywords": [
@@ -18,9 +18,9 @@
     "crypto"
   ],
   "bugs": {
-    "url": "https://github.com/cryptocoinjs/hdkey/issues"
+    "url": "https://github.com/ExodusMovement/hdkey/issues"
   },
-  "homepage": "https://github.com/cryptocoinjs/hdkey",
+  "homepage": "https://github.com/ExodusMovement/hdkey",
   "files": [],
   "devDependencies": {
     "bigi": "^1.1.0",
