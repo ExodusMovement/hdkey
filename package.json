@@ -1,6 +1,6 @@
 {
   "name": "@exodus/hdkey",
-  "version": "2.1.0-exodus.0",
+  "version": "2.1.1-exodus.1",
   "description": "Bitcoin BIP32 hierarchical deterministic keys",
   "main": "lib/hdkey.js",
   "repository": {
@@ -34,7 +34,7 @@
     "standard": "^7.1.1"
   },
   "dependencies": {
-    "@bitcoinerlab/secp256k1": "^1.0.5",
+    "@exodus/bitcoinerlab-secp256k1": "^1.0.5-exodus.1",
     "bs58check": "^2.1.2",
     "ripemd160": "^2.0.2",
     "safe-buffer": "^5.1.1"
