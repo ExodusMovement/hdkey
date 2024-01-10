@@ -73,6 +73,14 @@ describe('hdkey', function () {
       var hdkey = new HDKey()
       hdkey.publicKey = pub
     })
+
+    fixtures.rawHex.forEach(function (f) {
+      it('should convert to correct public key', function () {
+        var hdkey = new HDKey()
+        hdkey.privateKey = Buffer.from(f.private, 'hex')
+        assert.equal(hdkey.publicKey.toString('hex'), f.public)
+      })
+    })
   })
 
   describe('+ fromExtendedKey()', function () {
